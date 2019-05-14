@@ -1,0 +1,1 @@
+var tipuesearch = {"pages": [{'title': '期中報告', 'text': '', 'tags': '', 'url': '期中報告.html'}, {'title': '期中影片連結', 'text': '', 'tags': '', 'url': '期中影片連結.html'}]};
