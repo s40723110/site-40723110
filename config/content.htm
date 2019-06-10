@@ -1,5 +1,6 @@
 <h1>期末報告</h1>
 <h2>期末影片連結</h2>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/JFlEuDIFwuU" width="560"></iframe></p>
 <p></p>
 <p></p>
 <h1>配置可攜程式環境</h1>
@@ -125,19 +126,24 @@
 <h2>國旗</h2>
 <p></p>
 <!-- 導入 Brython 標準程式庫 -->
+<p>
 <script src="/static/brython.js"></script>
 <script src="/static/brython_stdlib.js"></script>
+</p>
 <p></p>
 <p></p>
 <!-- 啟動 Brython -->
+<p>
 <script>
 window.onload=function(){
 // 設定 data/py 為共用程式路徑
 brython({debug:1, pythonpath:['./../data/py']});
 }
 </script>
+</p>
 <p><canvas height="400" id="plotarea" width="600"></canvas></p>
 <p></p>
+<p>
 <script type="text/python">
 # 導入 doc
 from browser import document as doc
@@ -191,3 +197,4 @@ ctx.closePath()
 ctx.fillStyle = '#fff'
 ctx.fill()
 </script>
+</p>
